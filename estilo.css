@@ -236,7 +236,7 @@ body{
     font-size: 32px;
     line-height: 39px;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     text-align: center;
 
 }
@@ -251,9 +251,91 @@ body{
     
 }
 
-.conjunto-icone{
+.conjunto-icones{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 296px;
+    width: 304px;
+}
+
+.informacoes-icone{
+    margin-left: 24px;
+}
+
+.titulo-icone{
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #DAFF01;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+.texto-icone{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.promocoes{
+    width: 729px;
+    border: 2px solid;
+    margin: 65px auto;
+    padding: 40px 16px;
+}
+
+.titulo-promocoes{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.formulario-promocoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo-promocoes{
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    border: 1px solid;
+    border-radius: 0;
+    width: 456px;
+}
+
+.botao-promocoes{
+    border: 1px solid #9353ff; 
+    border-radius: 0;
+    background-color: #9353ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 84px;
+    text-align: center;
+}
+
+.rodape{
+    background-color: #000;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.texto-rodape{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+}
+
+.texto-rodape strong{
+    font-weight: bold;
+    color: fuchsia;
 }
